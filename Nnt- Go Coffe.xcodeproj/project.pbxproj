@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45230B3D28B84D7500855D99 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45230B3C28B84D7500855D99 /* CustomTableViewCell.swift */; };
+		45230B3F28B850F300855D99 /* CoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45230B3E28B850F300855D99 /* CoffeeView.swift */; };
+		45230B4128B8511F00855D99 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45230B4028B8511F00855D99 /* FavoriteView.swift */; };
+		4561F75128B970D700DB7492 /* TableViewCoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4561F75028B970D700DB7492 /* TableViewCoffee.swift */; };
+		457A0C9728BCDF7D00AC32F6 /* Cafeterias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A0C9628BCDF7D00AC32F6 /* Cafeterias.swift */; };
+		45BD3ACD28B69C3B00A21092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3ACC28B69C3B00A21092 /* AppDelegate.swift */; };
+		45BD3ACF28B69C3B00A21092 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3ACE28B69C3B00A21092 /* SceneDelegate.swift */; };
+		45BD3AD128B69C3B00A21092 /* MyTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3AD028B69C3B00A21092 /* MyTabController.swift */; };
+		45BD3AD728B69C3B00A21092 /* Nnt__Go_Coffe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3AD528B69C3B00A21092 /* Nnt__Go_Coffe.xcdatamodeld */; };
+		45BD3ADC28B69C3E00A21092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BD3ADA28B69C3E00A21092 /* LaunchScreen.storyboard */; };
+		45BD3AE728B69C3E00A21092 /* Nnt__Go_CoffeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3AE628B69C3E00A21092 /* Nnt__Go_CoffeTests.swift */; };
+		45BD3AF128B69C3E00A21092 /* Nnt__Go_CoffeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3AF028B69C3E00A21092 /* Nnt__Go_CoffeUITests.swift */; };
+		45BD3AF328B69C3E00A21092 /* Nnt__Go_CoffeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3AF228B69C3E00A21092 /* Nnt__Go_CoffeUITestsLaunchTests.swift */; };
+		45FD0A2528BD337400849160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45FD0A2428BD337400849160 /* Assets.xcassets */; };
+		45FD0A2828BD35E700849160 /* DetailsCoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FD0A2728BD35E700849160 /* DetailsCoffee.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45BD3AE328B69C3E00A21092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45BD3AC128B69C3B00A21092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45BD3AC828B69C3B00A21092;
+			remoteInfo = "Nnt- Go Coffe";
+		};
+		45BD3AED28B69C3E00A21092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45BD3AC128B69C3B00A21092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45BD3AC828B69C3B00A21092;
+			remoteInfo = "Nnt- Go Coffe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45230B3C28B84D7500855D99 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		45230B3E28B850F300855D99 /* CoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeView.swift; sourceTree = "<group>"; };
+		45230B4028B8511F00855D99 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		4561F75028B970D700DB7492 /* TableViewCoffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCoffee.swift; sourceTree = "<group>"; };
+		457A0C9628BCDF7D00AC32F6 /* Cafeterias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cafeterias.swift; sourceTree = "<group>"; };
+		45BD3AC928B69C3B00A21092 /* Nnt- Go Coffe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nnt- Go Coffe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BD3ACC28B69C3B00A21092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45BD3ACE28B69C3B00A21092 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45BD3AD028B69C3B00A21092 /* MyTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabController.swift; sourceTree = "<group>"; };
+		45BD3AD628B69C3B00A21092 /* Nnt__Go_Coffe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nnt__Go_Coffe.xcdatamodel; sourceTree = "<group>"; };
+		45BD3ADB28B69C3E00A21092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45BD3ADD28B69C3E00A21092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BD3AE228B69C3E00A21092 /* Nnt- Go CoffeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nnt- Go CoffeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BD3AE628B69C3E00A21092 /* Nnt__Go_CoffeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nnt__Go_CoffeTests.swift; sourceTree = "<group>"; };
+		45BD3AEC28B69C3E00A21092 /* Nnt- Go CoffeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nnt- Go CoffeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BD3AF028B69C3E00A21092 /* Nnt__Go_CoffeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nnt__Go_CoffeUITests.swift; sourceTree = "<group>"; };
+		45BD3AF228B69C3E00A21092 /* Nnt__Go_CoffeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nnt__Go_CoffeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		45FD0A2428BD337400849160 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45FD0A2728BD35E700849160 /* DetailsCoffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCoffee.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45BD3AC628B69C3B00A21092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BD3ADF28B69C3E00A21092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BD3AE928B69C3E00A21092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4561F74E28B9393F00DB7492 /* Coffee */ = {
+			isa = PBXGroup;
+			children = (
+				45230B3E28B850F300855D99 /* CoffeeView.swift */,
+				4561F75028B970D700DB7492 /* TableViewCoffee.swift */,
+				457A0C9628BCDF7D00AC32F6 /* Cafeterias.swift */,
+			);
+			path = Coffee;
+			sourceTree = "<group>";
+		};
+		4561F74F28B9394C00DB7492 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				45230B3C28B84D7500855D99 /* CustomTableViewCell.swift */,
+				45230B4028B8511F00855D99 /* FavoriteView.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		45BD3AC028B69C3B00A21092 = {
+			isa = PBXGroup;
+			children = (
+				45BD3ACB28B69C3B00A21092 /* Nnt- Go Coffe */,
+				45BD3AE528B69C3E00A21092 /* Nnt- Go CoffeTests */,
+				45BD3AEF28B69C3E00A21092 /* Nnt- Go CoffeUITests */,
+				45BD3ACA28B69C3B00A21092 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45BD3ACA28B69C3B00A21092 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45BD3AC928B69C3B00A21092 /* Nnt- Go Coffe.app */,
+				45BD3AE228B69C3E00A21092 /* Nnt- Go CoffeTests.xctest */,
+				45BD3AEC28B69C3E00A21092 /* Nnt- Go CoffeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45BD3ACB28B69C3B00A21092 /* Nnt- Go Coffe */ = {
+			isa = PBXGroup;
+			children = (
+				45FD0A2628BD35D600849160 /* Details */,
+				4561F74E28B9393F00DB7492 /* Coffee */,
+				4561F74F28B9394C00DB7492 /* Favorites */,
+				45BD3ACC28B69C3B00A21092 /* AppDelegate.swift */,
+				45BD3ACE28B69C3B00A21092 /* SceneDelegate.swift */,
+				45BD3AD028B69C3B00A21092 /* MyTabController.swift */,
+				45BD3ADA28B69C3E00A21092 /* LaunchScreen.storyboard */,
+				45FD0A2428BD337400849160 /* Assets.xcassets */,
+				45BD3ADD28B69C3E00A21092 /* Info.plist */,
+				45BD3AD528B69C3B00A21092 /* Nnt__Go_Coffe.xcdatamodeld */,
+			);
+			path = "Nnt- Go Coffe";
+			sourceTree = "<group>";
+		};
+		45BD3AE528B69C3E00A21092 /* Nnt- Go CoffeTests */ = {
+			isa = PBXGroup;
+			children = (
+				45BD3AE628B69C3E00A21092 /* Nnt__Go_CoffeTests.swift */,
+			);
+			path = "Nnt- Go CoffeTests";
+			sourceTree = "<group>";
+		};
+		45BD3AEF28B69C3E00A21092 /* Nnt- Go CoffeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45BD3AF028B69C3E00A21092 /* Nnt__Go_CoffeUITests.swift */,
+				45BD3AF228B69C3E00A21092 /* Nnt__Go_CoffeUITestsLaunchTests.swift */,
+			);
+			path = "Nnt- Go CoffeUITests";
+			sourceTree = "<group>";
+		};
+		45FD0A2628BD35D600849160 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				45FD0A2728BD35E700849160 /* DetailsCoffee.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45BD3AC828B69C3B00A21092 /* Nnt- Go Coffe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BD3AF628B69C3E00A21092 /* Build configuration list for PBXNativeTarget "Nnt- Go Coffe" */;
+			buildPhases = (
+				45BD3AC528B69C3B00A21092 /* Sources */,
+				45BD3AC628B69C3B00A21092 /* Frameworks */,
+				45BD3AC728B69C3B00A21092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nnt- Go Coffe";
+			productName = "Nnt- Go Coffe";
+			productReference = 45BD3AC928B69C3B00A21092 /* Nnt- Go Coffe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45BD3AE128B69C3E00A21092 /* Nnt- Go CoffeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BD3AF928B69C3E00A21092 /* Build configuration list for PBXNativeTarget "Nnt- Go CoffeTests" */;
+			buildPhases = (
+				45BD3ADE28B69C3E00A21092 /* Sources */,
+				45BD3ADF28B69C3E00A21092 /* Frameworks */,
+				45BD3AE028B69C3E00A21092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45BD3AE428B69C3E00A21092 /* PBXTargetDependency */,
+			);
+			name = "Nnt- Go CoffeTests";
+			productName = "Nnt- Go CoffeTests";
+			productReference = 45BD3AE228B69C3E00A21092 /* Nnt- Go CoffeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45BD3AEB28B69C3E00A21092 /* Nnt- Go CoffeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BD3AFC28B69C3E00A21092 /* Build configuration list for PBXNativeTarget "Nnt- Go CoffeUITests" */;
+			buildPhases = (
+				45BD3AE828B69C3E00A21092 /* Sources */,
+				45BD3AE928B69C3E00A21092 /* Frameworks */,
+				45BD3AEA28B69C3E00A21092 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45BD3AEE28B69C3E00A21092 /* PBXTargetDependency */,
+			);
+			name = "Nnt- Go CoffeUITests";
+			productName = "Nnt- Go CoffeUITests";
+			productReference = 45BD3AEC28B69C3E00A21092 /* Nnt- Go CoffeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45BD3AC128B69C3B00A21092 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					45BD3AC828B69C3B00A21092 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					45BD3AE128B69C3E00A21092 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 45BD3AC828B69C3B00A21092;
+					};
+					45BD3AEB28B69C3E00A21092 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 45BD3AC828B69C3B00A21092;
+					};
+				};
+			};
+			buildConfigurationList = 45BD3AC428B69C3B00A21092 /* Build configuration list for PBXProject "Nnt- Go Coffe" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45BD3AC028B69C3B00A21092;
+			productRefGroup = 45BD3ACA28B69C3B00A21092 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45BD3AC828B69C3B00A21092 /* Nnt- Go Coffe */,
+				45BD3AE128B69C3E00A21092 /* Nnt- Go CoffeTests */,
+				45BD3AEB28B69C3E00A21092 /* Nnt- Go CoffeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45BD3AC728B69C3B00A21092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FD0A2528BD337400849160 /* Assets.xcassets in Resources */,
+				45BD3ADC28B69C3E00A21092 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BD3AE028B69C3E00A21092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BD3AEA28B69C3E00A21092 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45BD3AC528B69C3B00A21092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BD3AD728B69C3B00A21092 /* Nnt__Go_Coffe.xcdatamodeld in Sources */,
+				45230B3D28B84D7500855D99 /* CustomTableViewCell.swift in Sources */,
+				457A0C9728BCDF7D00AC32F6 /* Cafeterias.swift in Sources */,
+				45230B3F28B850F300855D99 /* CoffeeView.swift in Sources */,
+				4561F75128B970D700DB7492 /* TableViewCoffee.swift in Sources */,
+				45230B4128B8511F00855D99 /* FavoriteView.swift in Sources */,
+				45FD0A2828BD35E700849160 /* DetailsCoffee.swift in Sources */,
+				45BD3AD128B69C3B00A21092 /* MyTabController.swift in Sources */,
+				45BD3ACD28B69C3B00A21092 /* AppDelegate.swift in Sources */,
+				45BD3ACF28B69C3B00A21092 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BD3ADE28B69C3E00A21092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BD3AE728B69C3E00A21092 /* Nnt__Go_CoffeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BD3AE828B69C3E00A21092 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BD3AF128B69C3E00A21092 /* Nnt__Go_CoffeUITests.swift in Sources */,
+				45BD3AF328B69C3E00A21092 /* Nnt__Go_CoffeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45BD3AE428B69C3E00A21092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45BD3AC828B69C3B00A21092 /* Nnt- Go Coffe */;
+			targetProxy = 45BD3AE328B69C3E00A21092 /* PBXContainerItemProxy */;
+		};
+		45BD3AEE28B69C3E00A21092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45BD3AC828B69C3B00A21092 /* Nnt- Go Coffe */;
+			targetProxy = 45BD3AED28B69C3E00A21092 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45BD3ADA28B69C3E00A21092 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45BD3ADB28B69C3E00A21092 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45BD3AF428B69C3E00A21092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45BD3AF528B69C3E00A21092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45BD3AF728B69C3E00A21092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2M84KZ35U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nnt- Go Coffe/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Narely.Nnt--Go-Coffe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45BD3AF828B69C3E00A21092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2M84KZ35U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nnt- Go Coffe/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Narely.Nnt--Go-Coffe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45BD3AFA28B69C3E00A21092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2M84KZ35U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Narely.Nnt--Go-CoffeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nnt- Go Coffe.app/Nnt- Go Coffe";
+			};
+			name = Debug;
+		};
+		45BD3AFB28B69C3E00A21092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2M84KZ35U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Narely.Nnt--Go-CoffeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nnt- Go Coffe.app/Nnt- Go Coffe";
+			};
+			name = Release;
+		};
+		45BD3AFD28B69C3E00A21092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2M84KZ35U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Narely.Nnt--Go-CoffeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nnt- Go Coffe";
+			};
+			name = Debug;
+		};
+		45BD3AFE28B69C3E00A21092 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U2M84KZ35U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Narely.Nnt--Go-CoffeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nnt- Go Coffe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45BD3AC428B69C3B00A21092 /* Build configuration list for PBXProject "Nnt- Go Coffe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BD3AF428B69C3E00A21092 /* Debug */,
+				45BD3AF528B69C3E00A21092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BD3AF628B69C3E00A21092 /* Build configuration list for PBXNativeTarget "Nnt- Go Coffe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BD3AF728B69C3E00A21092 /* Debug */,
+				45BD3AF828B69C3E00A21092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BD3AF928B69C3E00A21092 /* Build configuration list for PBXNativeTarget "Nnt- Go CoffeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BD3AFA28B69C3E00A21092 /* Debug */,
+				45BD3AFB28B69C3E00A21092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BD3AFC28B69C3E00A21092 /* Build configuration list for PBXNativeTarget "Nnt- Go CoffeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BD3AFD28B69C3E00A21092 /* Debug */,
+				45BD3AFE28B69C3E00A21092 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		45BD3AD528B69C3B00A21092 /* Nnt__Go_Coffe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				45BD3AD628B69C3B00A21092 /* Nnt__Go_Coffe.xcdatamodel */,
+			);
+			currentVersion = 45BD3AD628B69C3B00A21092 /* Nnt__Go_Coffe.xcdatamodel */;
+			path = Nnt__Go_Coffe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 45BD3AC128B69C3B00A21092 /* Project object */;
+}
